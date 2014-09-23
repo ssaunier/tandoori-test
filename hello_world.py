@@ -1,6 +1,6 @@
 class HelloWorld:
   def greets(self, name):
-    return "Hello World, %s" % name
+    return "Hello World"
 
 import unittest
 
