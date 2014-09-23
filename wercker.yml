@@ -19,8 +19,8 @@ build:
         code: |
           python hello_world.py
 
-  # after-steps:
-  #   - hipchat-notify:
-  #     token: $HIPCHAT_TOKEN
-  #     room-id: id
-  #     from-name: name
+# after-steps:
+#   - hipchat-notify:
+#     token: $HIPCHAT_TOKEN
+#     room-id: id
+#     from-name: name
